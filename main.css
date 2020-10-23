@@ -1,0 +1,49 @@
+body, div {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: goldenrod;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.title {
+    float: left;
+    padding-left: 30px;
+}
+h1 { font-size: 18px;}
+p { font-size: 11px;
+    text-align: center;
+    margin: 10px;
+}
+.page1 {
+    margin: 0 auto;
+    width: 200px;
+    border: 3px solid goldenrod;
+    margin: 20px;
+    float: left;
+    
+
+}
+.bottom-link {
+clear: both;
+    margin: 0 auto;
+margin: 10px;
+padding: 15px;
+border: 10 px;
+text-align: center;
+
+}
