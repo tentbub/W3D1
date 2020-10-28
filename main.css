@@ -1,18 +1,26 @@
-body, div {
+body, div, html {
     margin: 0;
+    padding: 0;
     font-family: sans-serif;
 }
 
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: goldenrod;
+  
+    background-color: goldenrod;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+    padding-top: 15px
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: right;
+   padding-top: 30px;
+  justify-content: flex-end;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -21,8 +29,11 @@ body, div {
 }
 
 .title {
-    float: left;
+    padding-top: 1px;
+    display: flex;
+    justify-content: flex-start;
     padding-left: 30px;
+    align-items: flex-start;
 }
 h1 { font-size: 18px;}
 p { font-size: 11px;
@@ -30,16 +41,29 @@ p { font-size: 11px;
     margin: 10px;
 }
 .page1 {
+    
+    
     margin: 0 auto;
     width: 200px;
     border: 3px solid goldenrod;
     margin: 20px;
-    float: left;
+    
     
 
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+
+}
 .bottom-link {
-clear: both;
+display: flex;
+justify-content: center;
+    background-color: goldenrod;
+
+    clear: both;
     margin: 0 auto;
 margin: 10px;
 padding: 15px;
